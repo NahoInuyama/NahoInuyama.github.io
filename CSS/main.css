@@ -7,6 +7,18 @@ body {
 	color: #4A4A4A;
 }
 
+#page {
+	max-width: 940px;
+	min-width: 740px;
+	margin: 10px auto 10px auto;
+	padding: 20px;
+	border: 4px double #000000;
+	background: #ffffff;
+}
+
+#logo {
+	width: 50px;
+}
 h1 {
 	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 	font-weight: bold;

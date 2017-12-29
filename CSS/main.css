@@ -8,11 +8,10 @@ body {
 }
 
 #page {
-	max-width: 940px;
-	min-width: 740px;
+	max-width: 640px;
+	min-width: 480px;
 	margin: 10px auto 10px auto;
 	padding: 20px;
-	border: 4px double #000000;
 	background: #ffffff;
 }
 

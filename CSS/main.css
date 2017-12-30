@@ -32,8 +32,8 @@ body {
 }
 
 
-#image {
-	width: 100px;
+#medium {
+	width: 220px;
 }
 
 h1 {
@@ -68,4 +68,6 @@ small {
 
 a:link { 
 	color: #5E0231;
+}
+.medium {
 }

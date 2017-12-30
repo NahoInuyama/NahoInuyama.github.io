@@ -7,30 +7,25 @@ body {
 	color: #4A4A4A;
 }
 
-#page {
-	max-width: 640px;
-	min-width: 480px;
-	margin: 10px auto 10px auto;
-	padding: 20px;
-	background: #ffffff;
-}
-
 #logo {
 	width: 50px;
 }
 
-.nav {
+#nav {
     overflow: hidden;
     background-color: #FFFFFF;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+	/*position: fixed; /* Set the navbar to fixed position */
+    /*top: 0; /* Position the navbar at the top of the page */
+    /*width: 100%; /* Full width */
+	list-style-type: none;
 }
 
-.nav a {
+#nav li {
     float: left;
+}
+
+#nav a {
     display: block;
-    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

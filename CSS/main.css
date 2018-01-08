@@ -3,7 +3,7 @@
 
 body {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	font-size: 12px;
+	font-size: 18px;
 	color: #4A4A4A;
 }
 
@@ -31,9 +31,28 @@ body {
     text-decoration: none;
 }
 
-
 #medium {
 	width: 220px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 h1 {
